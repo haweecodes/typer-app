@@ -1,0 +1,13 @@
+.correctChar {
+  color: var(--correctTextColor);
+}
+
+.typerText {
+  font-size: var(--fontSize);
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--textColor);
+  user-select: none;
+}
