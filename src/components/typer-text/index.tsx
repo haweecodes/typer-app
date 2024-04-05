@@ -27,9 +27,9 @@ const TyperText = ({ inputText, randomSentence }: TyperTextProps) => {
       );
     });
   }, [inputText, randomSentence]);
-  return <div className={styles.typerText} data-testid={TYPER_DISPLAY_FIELD_TEST_ID}>
+  return <section className={styles.typerText} data-testid={TYPER_DISPLAY_FIELD_TEST_ID}>
     {renderText}
-  </div>
+  </section>
 }
 
 export default TyperText;

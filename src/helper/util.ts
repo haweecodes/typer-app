@@ -1,5 +1,5 @@
-import { randomWords } from "../constants/randomWords";
+import { randomSentences } from "../constants/randomSentences";
 
-const randomlySelectedWords = () => randomWords[Math.ceil(Math.random() * 22)];
+const randomlySelectedSentences = () => randomSentences[Math.ceil(Math.random() * 22)];
 
-export {randomlySelectedWords}
+export {randomlySelectedSentences}

@@ -1,4 +1,4 @@
-export const randomWords = [
+export const randomSentences = [
   "The quick brown fox jumps over the lazy dog.",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "The sky is blue and the sun is shining brightly.",
