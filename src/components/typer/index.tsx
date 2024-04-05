@@ -35,12 +35,12 @@ const TyperComponent: React.FC = () => {
   };
 
   useEffect(() => {
-    if (startTime !== null && inputText === randomSentence) {
+    if (startTime !== null && inputText === randomSentence && result === 0) {
       const endTime = new Date().getTime();
       const elapsedTime = (endTime - startTime) / 1000;
       setResult(elapsedTime)
     }
-  }, [inputText, startTime, randomSentence]);
+  }, [inputText, startTime, randomSentence, result]);
 
   return (
     <section
